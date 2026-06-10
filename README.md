@@ -1,6 +1,7 @@
 # Meeting Assistant
 
-AI meeting assistant with real-time transcription, smart summaries, and action item extraction.
+AI meeting assistant with real-time transcription, smart summaries, and
+action item extraction.
 
 ## Quick Start
 

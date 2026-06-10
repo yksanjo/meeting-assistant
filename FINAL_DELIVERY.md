@@ -2,7 +2,8 @@
 
 ## 🚀 **Project Successfully Built!**
 
-I've created a complete, production-ready **AI-Powered Meeting Assistant** platform for you. Here's what you now have:
+I've created a complete, production-ready **AI-Powered Meeting Assistant**
+platform for you. Here's what you now have:
 
 ## 📊 **Project Statistics**
 

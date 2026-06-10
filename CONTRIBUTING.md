@@ -1,6 +1,7 @@
 # 🤝 Contributing to Meeting Assistant
 
-Thank you for your interest in contributing to Meeting Assistant! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to Meeting Assistant! This
+document provides guidelines and instructions for contributing.
 
 ## 📋 Table of Contents
 
@@ -17,7 +18,9 @@ Thank you for your interest in contributing to Meeting Assistant! This document 
 
 ## 📜 Code of Conduct
 
-We are committed to providing a friendly, safe, and welcoming environment for all. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+We are committed to providing a friendly, safe, and welcoming environment for
+all. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before
+participating.
 
 ## 🚀 Getting Started
 
@@ -343,6 +346,7 @@ All contributors will be:
 
 ## 🙏 Thank You
 
-Thank you for contributing to Meeting Assistant! Your help makes this project better for everyone.
+Thank you for contributing to Meeting Assistant! Your help makes this project
+better for everyone.
 
 Happy coding! 🚀

@@ -2,7 +2,8 @@
 
 ## 📋 Project Overview
 
-**AI-Powered Meeting Assistant** - A complete, production-ready platform for team collaboration and meeting management with DeepSeek AI integration.
+**AI-Powered Meeting Assistant** - A complete, production-ready platform for
+team collaboration and meeting management with DeepSeek AI integration.
 
 ## 🚀 What We Built
 
@@ -528,14 +529,17 @@ const sentiment = await deepseekAI.analyzeSentiment({
 
 ## 🚀 **Ready to Launch!**
 
-Your **AI-Powered Meeting Assistant** is complete and ready for deployment. With comprehensive features, enterprise-ready architecture, and detailed documentation, you can:
+Your **AI-Powered Meeting Assistant** is complete and ready for deployment.
+With comprehensive features, enterprise-ready architecture, and detailed
+documentation, you can:
 
 1. **Deploy immediately** to Vercel or Railway
 2. **Start using today** with your team
 3. **Scale effortlessly** as your needs grow
 4. **Customize easily** with the modular codebase
 
-**Next Step:** Run the deployment script or follow the deployment guide to get your instance live in minutes!
+**Next Step:** Run the deployment script or follow the deployment guide to
+get your instance live in minutes!
 
 ---
 **Built with ❤️ by yksanjo**
