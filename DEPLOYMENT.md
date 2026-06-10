@@ -20,6 +20,7 @@ This guide will help you deploy the Meeting Assistant to various platforms.
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyksanjo%2Fmeeting-assistant)
 
 **Steps:**
+
 1. Click the "Deploy with Vercel" button above
 2. Connect your GitHub account
 3. Configure environment variables (see below)
@@ -30,6 +31,7 @@ This guide will help you deploy the Meeting Assistant to various platforms.
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/meeting-assistant)
 
 **Steps:**
+
 1. Click the Railway button above
 2. Sign in with GitHub
 3. Configure environment variables
@@ -100,6 +102,7 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
    - Copy the "Connection string" (URI format)
 
 3. **Run database migrations:**
+
    ```bash
    npm run db:push
    ```
@@ -107,16 +110,19 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 ### Using Vercel Postgres
 
 1. **Create Vercel Postgres database:**
+
    ```bash
    vercel db create meeting-assistant-db
    ```
 
 2. **Connect to your project:**
+
    ```bash
    vercel db connect meeting-assistant-db
    ```
 
 3. **Run migrations:**
+
    ```bash
    npm run db:push
    ```
@@ -161,6 +167,7 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
    - Copy the key
 
 2. **Configure in Environment:**
+
    ```env
    DEEPSEEK_API_KEY="your-api-key-here"
    DEEPSEEK_API_URL="https://api.deepseek.com"
@@ -171,6 +178,7 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 ### Vercel Deployment
 
 1. **Push to GitHub:**
+
    ```bash
    git add .
    git commit -m "Initial commit"
@@ -192,21 +200,25 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 ### Railway Deployment
 
 1. **Create new project:**
+
    ```bash
    railway init
    ```
 
 2. **Add PostgreSQL database:**
+
    ```bash
    railway add postgresql
    ```
 
 3. **Deploy:**
+
    ```bash
    railway up
    ```
 
 4. **Set environment variables:**
+
    ```bash
    railway variables set NEXTAUTH_URL="https://your-app.up.railway.app"
    railway variables set DATABASE_URL="$(railway variables get DATABASE_URL)"
@@ -218,11 +230,13 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 ### Health Checks
 
 1. **Application Health:**
-   ```
+
+   ```text
    GET https://your-domain.com/api/health
    ```
 
 2. **Database Health:**
+
    ```bash
    npm run db:studio
    ```
@@ -239,6 +253,7 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
    - Manual: Export with `pg_dump`
 
 2. **Environment Backup:**
+
    ```bash
    # Export environment variables
    vercel env pull .env.local
@@ -288,16 +303,19 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 ### Logs & Debugging
 
 1. **Vercel Logs:**
+
    ```bash
    vercel logs
    ```
 
 2. **Railway Logs:**
+
    ```bash
    railway logs
    ```
 
 3. **Local Debugging:**
+
    ```bash
    npm run dev -- --debug
    ```
@@ -336,11 +354,12 @@ NEXT_PUBLIC_APP_NAME="Meeting Assistant"
 - **Documentation**: [Read docs](https://github.com/yksanjo/meeting-assistant#readme)
 - **Community**: [GitHub Discussions](https://github.com/yksanjo/meeting-assistant/discussions)
 
-## 🎉 Success!
+## 🎉 Success
 
 Your Meeting Assistant is now deployed! 🚀
 
 Next steps:
+
 1. Test the application
 2. Invite team members
 3. Configure integrations

@@ -4,16 +4,16 @@ Thank you for your interest in contributing to Meeting Assistant! This document 
 
 ## 📋 Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
-- [Getting Started](#getting-started)
-- [Development Workflow](#development-workflow)
-- [Code Style](#code-style)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [Pull Request Process](#pull-request-process)
-- [Feature Requests](#feature-requests)
-- [Bug Reports](#bug-reports)
-- [Community](#community)
+- [Code of Conduct](#-code-of-conduct)
+- [Getting Started](#-getting-started)
+- [Development Workflow](#-development-workflow)
+- [Code Style](#-code-style)
+- [Testing](#-testing)
+- [Documentation](#-documentation)
+- [Pull Request Process](#-pull-request-process)
+- [Feature Requests](#-feature-requests)
+- [Bug Reports](#-bug-reports)
+- [Community](#-community)
 
 ## 📜 Code of Conduct
 
@@ -30,6 +30,7 @@ We are committed to providing a friendly, safe, and welcoming environment for al
 ### Setup Development Environment
 
 1. **Fork the repository**
+
    ```bash
    # Fork on GitHub, then clone your fork
    git clone https://github.com/YOUR_USERNAME/meeting-assistant.git
@@ -37,17 +38,20 @@ We are committed to providing a friendly, safe, and welcoming environment for al
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp .env.local.example .env.local
    # Edit .env.local with your configuration
    ```
 
 4. **Set up database**
+
    ```bash
    # Using Supabase (recommended) or local PostgreSQL
    npm run db:push
@@ -55,6 +59,7 @@ We are committed to providing a friendly, safe, and welcoming environment for al
    ```
 
 5. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -75,6 +80,7 @@ We are committed to providing a friendly, safe, and welcoming environment for al
 ### Creating a New Feature
 
 1. **Create a feature branch**
+
    ```bash
    git checkout -b feature/amazing-feature
    ```
@@ -85,12 +91,14 @@ We are committed to providing a friendly, safe, and welcoming environment for al
    - Update documentation
 
 3. **Commit your changes**
+
    ```bash
    git add .
    git commit -m "feat: add amazing feature"
    ```
 
 4. **Push to your fork**
+
    ```bash
    git push origin feature/amazing-feature
    ```
@@ -114,7 +122,8 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 - `chore:` - Maintenance tasks
 
 Example:
-```
+
+```text
 feat: add AI-powered meeting summary generation
 
 - Implement DeepSeek API integration
@@ -158,7 +167,7 @@ Closes #123
 
 ### File Structure
 
-```
+```text
 meeting-assistant/
 ├── app/                    # Next.js App Router
 │   ├── api/               # API routes
@@ -320,6 +329,7 @@ describe('MeetingCard', () => {
 ### Recognition
 
 All contributors will be:
+
 - Listed in CONTRIBUTORS.md
 - Recognized in release notes
 - Thanked in the community
@@ -331,7 +341,7 @@ All contributors will be:
 - [Deployment Guide](DEPLOYMENT.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 
-## 🙏 Thank You!
+## 🙏 Thank You
 
 Thank you for contributing to Meeting Assistant! Your help makes this project better for everyone.
 
